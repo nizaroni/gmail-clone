@@ -52,6 +52,10 @@ header {
 
 
 /* Control bar */
+.control-bar {
+  border-bottom: 1px solid #f1f1f1;
+}
+
 .menu {
   font-size: 19px;
   color: #d14836;
