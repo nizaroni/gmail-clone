@@ -1,7 +1,12 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+
 /* Header */
 header {
   background-color: #f1f1f1;
-  padding: 13px;
+  padding: 13px 0;
 }
 
 .logo {
@@ -48,7 +53,9 @@ header {
 
 /* Control bar */
 .menu {
-  background-color: green;
+  font-size: 19px;
+  color: #d14836;
+  padding: 10px 30px;
 }
 
 .controls {
