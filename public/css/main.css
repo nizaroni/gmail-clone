@@ -114,5 +114,52 @@ input.mail-select {
 }
 
 .inbox {
-  background-color: lightblue;
+  padding-right: 30px;
+}
+
+.email-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #d0d0d0;
+  background-color: #f3f3f3;
+  font-weight: normal;
+}
+
+.email-item.unread {
+  font-weight: bold;
+  background-color: #fff;
+  color: #000;
+}
+
+.people-names {
+  font-size: 13px;
+}
+
+.mail-icons {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.message h3 {
+  font-size: 13px;
+  font-weight: normal;
+  display: inline;
+}
+
+.unread .message h3 {
+  font-weight: bold;
+}
+
+.clipper {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.message p {
+  font-size: 13px;
+  font-weight: normal;
+  display: inline;
+}
+
+.date {
+  font-size: 13px;
 }
