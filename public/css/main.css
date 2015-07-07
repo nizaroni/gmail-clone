@@ -1,0 +1,32 @@
+/* Header */
+.logo {
+  background-color: red;
+}
+
+.search-bar {
+  background-color: pink;
+}
+
+.profile {
+  background-color: deeppink;
+}
+
+
+/* Control bar */
+.menu {
+  background-color: green;
+}
+
+.controls {
+  background-color: lightgreen;
+}
+
+
+/* Mail */
+.sidebar {
+  background-color: blue;
+}
+
+.inbox {
+  background-color: lightblue;
+}
