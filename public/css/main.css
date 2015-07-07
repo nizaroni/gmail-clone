@@ -1,14 +1,48 @@
 /* Header */
+header {
+  background-color: #f1f1f1;
+  padding: 13px;
+}
+
 .logo {
-  background-color: red;
+  padding: 0 30px;
 }
 
 .search-bar {
-  background-color: pink;
+  padding-left: 0;
+  position: relative;
 }
 
-.profile {
-  background-color: deeppink;
+.btn-main {
+  background-color: #4285f4;
+  color: #fff;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.arrow {
+  color: #c1c1c1;
+  position: absolute;
+  right: 90px;
+  top: 15px;
+  z-index: 9;
+}
+
+.profile-icons {
+  margin-bottom: 0;
+}
+.profile-icons li {
+  margin-left: 10px;
+}
+
+.bell {
+  background-color: #333;
+  color: #fff;
+  border-radius: 50%;
+  padding: 3px;
+  height: 25px;
+  width: 25px;
+  text-align: center;
 }
 
 
