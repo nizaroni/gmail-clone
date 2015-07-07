@@ -89,7 +89,28 @@ input.mail-select {
 
 /* Mail */
 .sidebar {
-  background-color: blue;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.compose {
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 6px 30px;
+}
+
+.inbox-sections li {
+  margin-top: 10px;
+  font-size: 13px;
+}
+.inbox-sections .active {
+  color: #d14836;
+  font-weight: bold;
+}
+
+.inbox-sections .pending {
+  font-weight: bold;
 }
 
 .inbox {
